@@ -21,7 +21,7 @@
 #include "./a99SBdisp.ff/forcefield.itp"
 
 ; Include ligand parameters
-#include "./8_epi001.itp"
+#include "./8_epi002.itp"
 
 [ moleculetype ]
 ; Name            nrexcl
@@ -14904,7 +14904,7 @@ Protein in water
 [ molecules ]
 ; Compound        #mols
 Protein             1
-epi001		1
+epi002		1
 SOL         32213
 NA               15
 CL               12
