@@ -1,5 +1,5 @@
 ;
-;   File 5_epi001.top  was generated
+;   File 5_epi002.top  was generated
 ;   By user: zhukai (40149)
 ;   On host:mu01 
 ;   At date:Mon. June  1 20:36:38 2024 
@@ -29,7 +29,7 @@ ho             1   1.008000  0.00000000  A              0              0
 
 [ moleculetype ]
 ; Name            nrexcl
-epi001          3
+epi002          3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
