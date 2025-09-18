@@ -1,5 +1,5 @@
 #### Supporting data for the paper:
-## "A Machine Learning-based Enhanced Sampling Workflow for Decipher-ing Ligand Binding Mechanisms to Intrinsically Disordered Proteins and Its Application on AR-NTD"
+## "Discovery of a novel AR-NTD antagonist through a machine learning-based enhanced sampling workflow targeting intrinsically disordered proteins"
 
 ![Workflow Overview](workflow.jpg)
 
@@ -22,3 +22,4 @@ The contents of the repository are organized as follows:
 
 #### tau5/FES : files for Binding FES simulations
   - **1-9**: input files for Binding FES simulations
+  - **1-9/states** Structural files of the free-energy minima conformations
