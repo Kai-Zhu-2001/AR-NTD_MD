@@ -23,3 +23,5 @@ The contents of the repository are organized as follows:
 #### tau5/FES : files for Binding FES simulations
   - **1-9**: input files for Binding FES simulations
   - **1-9/states** Structural files of the free-energy minima conformations
+
+#### tau5/a99SBdisp.ff : files for the force field of intrinsically disordered proteins
