@@ -9,7 +9,7 @@ The REST3 tutorial is available here: https://github.com/mdlab-um/REST3_tutorial
 
 The SWISH tutorial is available here: https://github.com/Gervasiolab/Gervasio-Protein-Dynamics/tree/master/swish_bootcamp.
 
-All MD simulations were conducted using GROMACS 2022.6, integrated with PLUMED 2.9.0 plugin and Pytorch library 2.2.1.
+All molecular dynamics simulations were conducted using [GROMACS 2022.6](https://github.com/gromacs/gromacs), integrated with the [PLUMED 2.9.0](https://github.com/plumed/plumed2) plugin and the [PyTorch 2.2.1](https://github.com/pytorch/pytorch) library.
 
 ### Repo structure
 The contents of the repository are organized as follows:
