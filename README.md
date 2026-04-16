@@ -1,5 +1,5 @@
 #### Supporting data for the paper:
-## "Discovery of a novel AR-NTD antagonist through a machine learning-based enhanced sampling workflow targeting intrinsically disordered proteins"
+## "Targeting the intrinsically disordered AR-NTD through a machine learn-ing-based enhanced sampling workflow"
 
 ![Workflow Overview](workflow.jpg)
 
