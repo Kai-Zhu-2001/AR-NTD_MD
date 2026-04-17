@@ -14,16 +14,22 @@ All molecular dynamics simulations were conducted using [GROMACS 2022.6](https:/
 ### Repo structure
 The contents of the repository are organized as follows:
 
-#### tau5/REST3 : files for REST3 simulations
+#### tau5/REST3 : files for REST3 simulations of tau5
   - **0-7**: input files for REST simulations
   - **setup**: script for scaling the top Hamiltonian
   -  **mlcv**: frozen torchscript models for AE CV
 
-#### tau5/swish : files for SWISH simulations
+#### tau5/swish : files for SWISH simulations of tau5
   - **1-9**: input files for SWISH simulations
 
-#### tau5/FES : files for Binding FES simulations
+#### tau5/FES : files for Binding FES simulations of tau5
   - **1-9**: input files for Binding FES simulations
   - **1-9/states** Structural files of the free-energy minima conformations
 
-#### tau5/a99SBdisp.ff : files for the force field of intrinsically disordered proteins
+#### tau5/a99SBdisp.ff : files for the force field of intrinsically disordered proteins of tau5
+
+#### c-myc/REST3 : files for REST3 simulations of c-myc
+
+#### tau5/swish : files for SWISH simulations of c-myc
+
+#### tau5/FES : files for Binding FES simulations of c-myc
