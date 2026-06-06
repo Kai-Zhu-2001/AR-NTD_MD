@@ -1,6 +1,7 @@
 #### Supporting data for the paper:
 ## "Targeting the intrinsically disordered AR-NTD through a machine learn-ing-based enhanced sampling workflow"
 
+[![Nature Communications](https://img.shields.io/badge/Nature%20Communications-10.1038%2Fs41467--026--73863--x-blue)](https://www.nature.com/articles/s41467-026-73863-x)
 ![Workflow Overview](workflow.jpg)
 
 The training of the models was based on the [mlcolvar library](https://github.com/luigibonati/mlcolvar).
