@@ -1,12 +1,13 @@
-#!/bin/bash
-#SBATCH -J swish9
-#SBATCH -o swish9.log
-#SBATCH -e swish9.err
+#!/usr/bin/env bash
+#SBATCH -J swish8
+#SBATCH -o swish8.log
+#SBATCH -e swish8.err
 #SBATCH -N 1
 #SBATCH -p gpu
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:2
 #SBATCH -w gpu16
 
-mpirun -np 4  gmx_mpi mdrun -plumed ../plumed.dat -multidir rep0 rep1 rep2 rep3 -replex 5000 -hrex -dlb no -s prod.tpr -cpi prod.cpt -deffnm prod
+# Submit or run from this simulation directory.
+exec bash ../../../scripts/run_replicas.sh swish "$PWD" -cpi prod.cpt "$@"
 

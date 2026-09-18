@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #SBATCH -J swish4
 #SBATCH -o swish4.log
 #SBATCH -e swish4.err
@@ -8,5 +8,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH -w gpu16
 
-mpirun -np 4  gmx_mpi mdrun -plumed ../plumed.dat -multidir rep0 rep1 rep2 rep3 -replex 5000 -hrex -dlb no -s prod.tpr -deffnm prod
+# Submit or run from this simulation directory.
+exec bash ../../../scripts/run_replicas.sh swish "$PWD" "$@"
 

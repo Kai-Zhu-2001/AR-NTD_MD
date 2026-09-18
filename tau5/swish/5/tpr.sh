@@ -1,5 +1,4 @@
-#/bin/bash
-for i in $(seq 0 3); do
-        gmx_mpi grompp -f prod.mdp -p rep$i/5_swish$i.top -c npt.gro -o rep$i/prod.tpr -n 5_benz.ndx 
-done
+#!/usr/bin/env bash
+# Run from this simulation directory.
+exec bash ../../../scripts/prepare_swish.sh "$PWD" 5 "$@"
 

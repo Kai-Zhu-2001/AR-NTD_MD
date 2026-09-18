@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite the associated article when using these simulation materials."
+title: "AR-NTD_MD: molecular dynamics inputs and collective-variable models"
+type: dataset
+authors:
+  - family-names: Zhu
+    given-names: Kai
+repository-code: "https://github.com/Kai-Zhu-2001/AR-NTD_MD"
+url: "https://github.com/Kai-Zhu-2001/AR-NTD_MD"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Zhu
+      given-names: Kai
+    - family-names: Wang
+      given-names: Huating
+    - family-names: Zhang
+      given-names: Jintu
+    - family-names: Hu
+      given-names: Renling
+    - family-names: Jiang
+      given-names: Linlong
+    - family-names: Zhang
+      given-names: Hui
+    - family-names: Kang
+      given-names: Yu
+    - family-names: Hou
+      given-names: Tingjun
+    - family-names: Li
+      given-names: Dan
+  title: "Targeting the intrinsically disordered AR-NTD through a machine learning-based enhanced sampling workflow"
+  journal: Nature Communications
+  volume: 17
+  start: 7206 # Article number
+  year: 2026
+  doi: "10.1038/s41467-026-73863-x"
+  url: "https://www.nature.com/articles/s41467-026-73863-x"
